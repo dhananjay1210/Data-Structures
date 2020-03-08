@@ -1,9 +1,9 @@
-###################################
-#								  #
+###################################################
+#						  #
 #		Author : Dhananjay		  #
-#				 IIT Gandhinagar  #
-#								  #
-###################################
+#			 IIT Gandhinagar	  #
+#						  #
+###################################################
 
 # Segment Tree implementation without lazy propagation. The supported operations are:
 #			- Range minimum query, O(log(n))
