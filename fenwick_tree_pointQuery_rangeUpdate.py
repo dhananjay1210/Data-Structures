@@ -16,7 +16,7 @@ class FenwickTree:
 		self.ft = [0 for _ in range(self.n + 1)]
 		self.build(freq, self.ft)
 		
-	def LSOne(self, a):									# return least significant bit if 'i'
+	def LSOne(self, a):									# return least significant bit if 'a'
 		return a & (-a)
 	
 	def build(self, freq, ft):							# O(n)
